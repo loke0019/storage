@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Manager</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <h1>Contact Manager</h1>
+        </header>
+        <main>
+        <ul class="contacts">
+            <li class="contacts">
+            <span class="delete"></span>
+                <h3>Luke Skywalker</h3>
+                <p class="email">luke.skywalker@jedi.org</p>
+                <p class="phone">613-321-8765</p>
+                
+            </li>
+            <li class="contact">
+            <span class="delete"></span>
+                <h3>Han Solo</h3>
+                <p class="email">han.solo@falcon.com</p>
+                <p class="phone">613-277-813</p>
+            </li>
+            <li class="contact">
+            <span class="delete"></span>
+                <h3>Grib Sten</h3>
+                 <p class="email">grib.solo@falcon.com</p>
+                <p class="phone">613-277-823</p>
+            </li>
+            <li class="contact">
+            <span class="delete"></span>
+                <h3>Josh Smith</h3>
+                 <p class="email">josh.solo@falcon.com</p>
+                <p class="phone">613-278-813</p>
+            </li>
+            </ul>
+        </main>
+        <footer>
+        <div class="fab"></div>
+        </footer>
+        
+        <div class="overlay">&nbsp;</div>
+        <section class="contactform">
+        <form>
+            <input type="text" id="input-name" placeholder="Full Name" required />
+            <input type="email" id="input-email" placeholder="Email Address" required />
+            <input type="text" id="input-phone" placeholder="Phone number" required />
+            <button id="button-cancel">Cancel</button>
+            <button id="button-save">Save </button>
+            </form>
+        </section>
+        
+        <script src="stater.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
